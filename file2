@@ -1,0 +1,29 @@
+#greatest og two numbers
+a = int(input("Enter first number :"))
+b = int(input("Enter second number :"))
+if(a>b):
+    print("greatest number is :",a)
+elif(a==b):
+    print("both is equal")
+else:
+    print("greatest number is :",b)
+
+
+#print simple calculator
+a = int(input("Enter first number :"))
+b = int(input("Enter second number :"))
+print("sum=",a+b)
+print("Difference=",a-b)
+print("Product=",a*b)
+print("Quotient=",a/b)
+print("Remainder",a%b)
+
+#print bitwise operation
+a = int(input("Enter first number :"))
+b = int(input("Enter second number :"))
+print("AND operation",a&b)
+print("OR operation",a|b)
+print("xOR operation",a^b)
+print("Tilde operation",~a,~b)
+print("Left shift operation",a<<b)
+print("Right shift operation",a>>b)
